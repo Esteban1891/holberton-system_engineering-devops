@@ -4,3 +4,4 @@
 3.The long format ---> ls -l
 4.Hidden files ---> ls -la
 5.I love numbers ---> ls -l a
+6.Welcome holberton ---> mkdir /tmp/holberton
