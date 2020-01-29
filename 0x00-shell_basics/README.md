@@ -6,3 +6,4 @@
 5.I love numbers ---> ls -l a
 6.Welcome holberton ---> mkdir /tmp/holberton
 7.Betty in Holberton ---> mv /tmp/holberton
+8.Bye bye Betty ---> rm /tmpholberton/betty
