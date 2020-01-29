@@ -9,3 +9,4 @@
 8.Bye bye Betty ---> rm /tmpholberton/betty
 9.Bye bye Holberton ---> rmdir /tmp/holberton
 10.Back to the future ---> cd -
+11.List ---> ls -la . .. /boot
