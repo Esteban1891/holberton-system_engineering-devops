@@ -5,4 +5,4 @@
 4.Hidden files ---> ls -la
 5.I love numbers ---> ls -l a
 6.Welcome holberton ---> mkdir /tmp/holberton
-7.Betty in Holberton ---> mv /tmp/holberton/
+7.Betty in Holberton ---> mv /tmp/holberton
