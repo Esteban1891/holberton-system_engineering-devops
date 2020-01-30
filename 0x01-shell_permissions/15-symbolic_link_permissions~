@@ -1,2 +1,0 @@
-#!/bin/bash
-chown -h betty:holbeton _hello
