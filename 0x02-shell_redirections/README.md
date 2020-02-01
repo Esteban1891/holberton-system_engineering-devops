@@ -7,8 +7,8 @@
     4-lastlines: a script that displays the last 10 lines of the file /etc/passwd
     5-firstlines: a script that displays the first 10 lines of the file /etc/passwd
     6-third_line: a script that displays the third line of the file iacta in the working directory
-    8-cwd_state: a script that writes the result of the cmd ls-la to the file ls_cwd_content
     7-file: a script that generates the file *\'"Holberton School"'\*$?*****:) containing the text 'Holberton School' followed by a new line
+    8-cwd_state: a script that writes the result of the cmd ls-la to the file ls_cwd_content
     9-duplicate_last_line: a script that duplicates the last line of the file iacta in the file iacta
     10-no_more_js: a script that deletes all non-directory files ending in .js in the current directory and its subdirectories
     11-a script that displays the number of directories and subdirectories in the current directory
