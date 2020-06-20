@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#a script print time 10 else string and more conditions in a bucle
+a=1
+while [ "$a" -le 10 ]
+do
+	if [ $a == 4 ]
+	then
+		echo "bad luck"
+	elif [ $a == 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Holberton School"
+	fi
+	((a++))
+done
