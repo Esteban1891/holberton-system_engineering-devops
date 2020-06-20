@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#script loop and until
-i=0
-until [ $i -eq 10 ]
+# This script is displaying "Holberton School" 10 times
+n=1
+until [ $n -gt 10 ]
 do
-	echo "Holberton Sschool"
-	((i++))
+	echo "Holberton School"
+	(( n++ ))
 done
