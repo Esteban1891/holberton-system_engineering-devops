@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# This script print numbers from 1 to 100.
+# print FizzBuzz when the number is a multiple of 3 and 5
+# print Fizz when the number is multiple of 3
+# print  Buzz when the number is a multiple of 5
+
+count=1
+while [ "$count" -lt 101 ]
+do
+    if [ $((count%15)) = 0 ]
+    then
+        echo "FizzBuzz"
+    elif [ $((count%3)) = 0 ]
+    then
+        echo "Fizz"
+    elif [ $((count%5)) = 0 ]
+    then
+        echo "Buzz"
+    else
+            echo "$count"
+    fi
+((count++))
+done
