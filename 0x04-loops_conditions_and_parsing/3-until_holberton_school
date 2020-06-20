@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
-n=0
-until [ $n -gt 9 ]
+a=0
+until [ $a -gt 9 ]
 do
 	echo "Holberton School"
 	(( n++ ))
