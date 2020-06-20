@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-for i in `seq 1 10`;
+# is a script that run and repeat 10 times of the string in echo
+for ((i=0; i<=9; i++))
 do
+	echo "Holberton School"
 done
