@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# script run in loop while
+i=1
+while ((i<=9))
+do
+	echo "Holberton School"
+	((i++))
+done
