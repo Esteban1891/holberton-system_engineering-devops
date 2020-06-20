@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#script Bash that print of file whith ls in bucle
+for files in *
+do 
+    echo "$files" | cut -d'-' -f2
+done
