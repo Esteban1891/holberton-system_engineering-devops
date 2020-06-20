@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #script loop and until
 i=0
-until ((i > 10))
+until [ $i -eq 10 ]
 do
 	echo "Holberton Sschool"
 	((i++))
