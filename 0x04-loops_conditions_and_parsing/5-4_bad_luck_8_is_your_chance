@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #a script print time 10 else string and more conditions in a bucle
 n=1
-while [ "$n" -le 10 ]
+while [ $n -le 10 ]
 do
 	if [ $n == 4 ]
 	then
