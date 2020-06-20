@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script print the content of the file /etc/passwd
+# This script displays the content of the file /etc/passwd
 
 path="/etc/passwd"
 while IFS=: read -r user groupid home cmd userid pass useridinfo
