@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
-a=0
-until [ $a -gt 9 ]
+i=0
+until [ $i -eq 9 ]
 do
 	echo "Holberton School"
-	(( n++ ))
+	(( i++ ))
 done
