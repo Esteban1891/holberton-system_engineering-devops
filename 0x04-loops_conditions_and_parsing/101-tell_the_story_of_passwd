@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script print the content of the file /etc/passwd
+
+path="/etc/passwd"
+while IFS=: read -r user groupid home cmd userid pass useridinfo
+do
+	echo "The user $user is part of the $groupid gang, lives in $home and rides $cmd. $userid's place is protected by the passcode $pass, more info about the user here: $useridinfo"
+done < "$path"
