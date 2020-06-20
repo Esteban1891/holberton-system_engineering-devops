@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 #a script print time 10 else string and more conditions in a bucle
-a=1
-while [ "$a" -le 10 ]
+n=1
+while [ "$n" -le 10 ]
 do
-	if [ $a == 4 ]
+	if [ $n == 4 ]
 	then
 		echo "bad luck"
-	elif [ $a == 7 ]
+	elif [ $n == 7 ]
 	then
 		echo "good luck"
 	else
 		echo "Holberton School"
 	fi
-	((a++))
+	((n++))
 done
