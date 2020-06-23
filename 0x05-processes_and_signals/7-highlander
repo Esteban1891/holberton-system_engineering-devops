@@ -4,5 +4,5 @@ while true
 do
 	printf "To infinity and beyond\n"
 	sleep 2
-	printf "I am invincible!!!" 14
+	printf "I am invincible!!!\n" 14
 done
