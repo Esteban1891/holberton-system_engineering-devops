@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Using SIGNALS and management with processes.
+
+FILE="/var/run/holbertonscript.pid"
+
+function clean_up()
+{
+    rm -rf $FILE
+    if $1;
+    then
+	echo "I hate the kill command"
+    fi
+    exit
+}
+
+echo "$$" > $FILE
+
+trap clean_up "true" SIGTERM
+trap clean_up "false" SIGQUIT
+trap 'echo "Y U no love me?!"' SIGINT
+
+while true;
+do
+    echo "To infinity and beyond"
+done
