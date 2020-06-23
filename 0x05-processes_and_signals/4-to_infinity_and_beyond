@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #Write a Bash script that displays To infinity and beyond indefinitely.
-for ((i=0; i<0; a++))
+indefinitely = true
+while ((indefinitely == true))
 do
-	printf "To infinity and beyond\n"
+	printf "To infinity and beyond"
 	sleep 2
 done
