@@ -30,7 +30,7 @@ This projects deals with processes and signals in bash.
 | 101-manage_my_process | Manages the `manage_my_process` file's process |
 | manage_my_process | Indefinitely writes `I am alive!` to the file `/tmp/my_process` and has a sleep of 2 |
 | 102-zombie.c | Creates 5 zombie processes |
-| 103-screencast_unix_signal | [video_explanation](https://youtu.be/02HjGHEX21o) |
+| 103-screencast_unix_signal | [How to kill a process in linux with C](https://youtu.be/02HjGHEX21o) |
 
 ## Compilation :flashlight:
 
