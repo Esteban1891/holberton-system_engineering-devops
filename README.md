@@ -7,7 +7,7 @@ This repository contains all the work done for the Sysadmin/SRE track at Holbert
 ## Table of Contents :open_file_folder:
 
 * [About](#about)
-* [Requirements](##requirements)
+* [Requirements](#requirements)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Projects](#projects)
