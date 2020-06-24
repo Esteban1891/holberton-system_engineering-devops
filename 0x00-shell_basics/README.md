@@ -1,4 +1,4 @@
-# 0x00-shell_basics :octocat:
+# 0x00-shell_basics :hammer:
 
 ## Description :notebook:
 
@@ -32,7 +32,7 @@ First project dealing with bash and understanding basic shell commands.
 
 1. Create a magic file `holberton.mgc` that can be used with the command `file` to detect `Holberton` data files.
 
-## Author
+## Author :octocat:
 
 [Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/)
 [Twitter](https://twitter.com/Esteban18911)
