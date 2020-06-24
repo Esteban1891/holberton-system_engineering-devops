@@ -1,4 +1,4 @@
-# :bullettrain_side: System Engineering and DevOps :bullettrain_side:
+# System Engineering and DevOps :bullettrain_side:
 
 ## Introduction
 
