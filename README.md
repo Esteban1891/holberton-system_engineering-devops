@@ -60,13 +60,13 @@ In your terminal, git clone the directory with the following command:
 git clone https://github.com/Esteban1891/[Github project directory]
 ```
 
-## Usage
+## Usage :telescope:
 
 ```sh
 ./[executable file]
 ```
 
-## Projects
+## Projects :computer:
 
 1. [0x00-shell_basics](./0x00-shell_basics)
 1. [0x01-shell_permissions](./0x01-shell_permissions)
@@ -89,6 +89,6 @@ git clone https://github.com/Esteban1891/[Github project directory]
 1. [0x13-firewall](./0x13-firewall)
 1. [0x14-mysql](./0x14-mysql)
 
-## Author
+## Author :octocat:
 
 [Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
