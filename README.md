@@ -4,7 +4,7 @@
 
 This repository contains all the work done for the Sysadmin/SRE track at Holberton School. It is written in Bash, Puppet, and other tools/languages.
 
-## Table of Contents
+## Table of Contents :open_file_folder:
 
 * [About](#about)
 * [Requirements](#requirements)
@@ -13,7 +13,7 @@ This repository contains all the work done for the Sysadmin/SRE track at Holbert
 * [Projects](#projects)
 * [Author](#author)
 
-## About
+## About :moyai:
 
 This repository contains projects on:
 
