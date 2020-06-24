@@ -8,7 +8,7 @@ First project dealing with bash and understanding basic shell commands.
 
 | Files | Description |
 | ----- | ----------- |
-|0-current_working_directory | Displays the current working directory |
+| 0-current_working_directory | Displays the current working directory |
 | 1-listit | Displays the contents of the current working directory |
 | 2-bring_me_home | Changes the current working directory to the users home directory |
 | 3-listfiles | Displays the contents of the current working directory in long format |
@@ -34,6 +34,4 @@ First project dealing with bash and understanding basic shell commands.
 
 ## Author :octocat:
 
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/)
-[Twitter](https://twitter.com/Esteban18911)
-[GitHub](https://github.com/Esteban18911)
+[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
