@@ -1,14 +1,14 @@
-# 0x05-processes_and_signals
+# 0x05-processes_and_signals :satellite:
 
 
 ![N|Solid](https://www.tecmint.com/wp-content/uploads/2018/06/fkill-Kill-Linux-Process-by-Name-PID.png)
 
 
-## Description
+## Description :computer:
 
 This projects deals with processes and signals in bash.
 
-## Mandatory Tasks
+## Mandatory Tasks :sound:
 
 | Files | Description |
 | ----- | ----------- |
@@ -22,7 +22,7 @@ This projects deals with processes and signals in bash.
 | 7-highlander | Displays `To infinity and beyond` indefinitely with a sleep period of 2 and prints `I am invincible!!!` when receiving a `SIGTERM` |
 | 8-beheaded_process | Kills the process `7-highlander` |
 
-## Advanced Tasks
+## Advanced Tasks :dart:
 
 | Files | Description |
 | ----- | ----------- |
@@ -30,8 +30,9 @@ This projects deals with processes and signals in bash.
 | 101-manage_my_process | Manages the `manage_my_process` file's process |
 | manage_my_process | Indefinitely writes `I am alive!` to the file `/tmp/my_process` and has a sleep of 2 |
 | 102-zombie.c | Creates 5 zombie processes |
+| 103-screencast_unix_signal | [video_explanation](https://youtu.be/02HjGHEX21o) |
 
-## Compilation
+## Compilation :flashlight:
 
 To compile 102-zombie.c run the command `gcc -Wall -Werror -Wextra -pedantic` and run using the command `./[executable name]`
 
