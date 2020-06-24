@@ -1,4 +1,4 @@
-# 0x04. Loops, conditions and parsing
+# 0x04. Loops, conditions and parsing :hammer:
 
 ![N|Solid](https://1.bp.blogspot.com/-QE9dDUpFECc/UAyAWZx1p7I/AAAAAAAAAE8/OXBntps8LAA/s1600/blank_computer_screen.png=21x)
 
@@ -6,7 +6,7 @@
 
 This projects introduces loops and conditions in bash scripting and introducing parsing.
 
-## Mandatory Tasks
+## Mandatory Tasks :computer:
 
 | Files | Description |
 | ----- | ----------- |
@@ -22,7 +22,7 @@ This projects introduces loops and conditions in bash scripting and introducing 
 | 9-to_file_or_not_to_file | Gives the user information about the `holbertonschool` file |
 | 10-fizzbuzz | Bash version of FizzBuzz |
 
-## Advanced Tasks
+## Advanced Tasks :cat2:
 
 | Files | Description |
 | ----- | ----------- |
