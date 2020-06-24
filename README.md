@@ -42,9 +42,10 @@ This repository contains projects on:
 * Monitor a web infrastructure
 * Web stack debugging
 
-## Requirements :books:
+## Requirements
 
 * Ubuntu 14.04 LTS
+* MacOS
 * python3 3.4.3
 * Flask
 * Puppet
@@ -52,7 +53,7 @@ This repository contains projects on:
 * Shellcheck styling
 * All programs were run on a Vagrant(ubuntu/trusty64) (Virtualbox) environment
 
-## Installation :bookmark:
+## Installation
 
 In your terminal, git clone the directory with the following command:
 
@@ -60,13 +61,13 @@ In your terminal, git clone the directory with the following command:
 git clone https://github.com/Esteban1891/[Github project directory]
 ```
 
-## Usage :telescope:
+## Usage
 
 ```sh
 ./[executable file]
 ```
 
-## Projects :computer:
+## Projects
 
 1. [0x00-shell_basics](./0x00-shell_basics)
 1. [0x01-shell_permissions](./0x01-shell_permissions)
