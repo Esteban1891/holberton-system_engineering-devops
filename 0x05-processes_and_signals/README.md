@@ -1,7 +1,7 @@
 # 0x05-processes_and_signals
 
 
-![N|Solid](https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-1-4842-5049-5_13/MediaObjects/473415_1_En_13_Fig4_HTML.png=12x)
+![N|Solid](https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-1-4842-5049-5_13/MediaObjects/473415_1_En_13_Fig4_HTML.png =12x)
 
 
 ## Description
