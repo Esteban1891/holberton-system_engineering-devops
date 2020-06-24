@@ -1,6 +1,6 @@
 # 0x04. Loops, conditions and parsing
 
-![N|Solid](https://1.bp.blogspot.com/-QE9dDUpFECc/UAyAWZx1p7I/AAAAAAAAAE8/OXBntps8LAA/s1600/blank_computer_screen.png=20x10)
+![N|Solid](https://1.bp.blogspot.com/-QE9dDUpFECc/UAyAWZx1p7I/AAAAAAAAAE8/OXBntps8LAA/s1600/blank_computer_screen.png=2x1)
 
 ## Description
 
