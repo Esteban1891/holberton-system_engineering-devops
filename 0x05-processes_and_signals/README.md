@@ -1,7 +1,7 @@
 # 0x05-processes_and_signals
 
 
-![N|Solid](https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-1-4842-5049-5_13/MediaObjects/473415_1_En_13_Fig4_HTML.png =12x)
+![N|Solid](https://www.tecmint.com/wp-content/uploads/2018/06/fkill-Kill-Linux-Process-by-Name-PID.png)
 
 
 ## Description
@@ -34,4 +34,8 @@ This projects deals with processes and signals in bash.
 ## Compilation
 
 To compile 102-zombie.c run the command `gcc -Wall -Werror -Wextra -pedantic` and run using the command `./[executable name]`
+
+## Author :octocat:
+
+[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
 
