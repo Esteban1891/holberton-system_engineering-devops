@@ -2,7 +2,7 @@
 
 ![N|Solid](https://1.bp.blogspot.com/-QE9dDUpFECc/UAyAWZx1p7I/AAAAAAAAAE8/OXBntps8LAA/s1600/blank_computer_screen.png=21x)
 
-## Description
+## Description :wrench:
 
 This projects introduces loops and conditions in bash scripting and introducing parsing.
 
