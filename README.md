@@ -13,7 +13,7 @@ This repository contains all the work done for the Sysadmin/SRE track at Holbert
 * [Projects](#projects)
 * [Author](#author)
 
-## About :moyai:
+## About
 
 This repository contains projects on:
 
