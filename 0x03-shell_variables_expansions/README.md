@@ -1,35 +1,38 @@
-<strong><i>0x03. Shell, init files, variables and expansions</i><strong>
+# 0x03-shell_variables_expansions :thought_balloon:
 
-0-alias - Create a script that creates an alias.
+## Description :coffee:
 
-1-hello_you - Create a script that prints hello user, where user is the current Linux user.
+This projects deals with variables and expansions in the shell.
 
-2-path - Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+## Mandatory Tasks 
 
-3-paths - Create a script that counts the number of directories in the PATH.
+| Files | Description |
+| ----- | ----------- |
+| 0-alias | Creates an alias |
+| 1-hello_you | Displays `hello user` where the user is the current Linux user |
+| 2-path | Adds `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program |
+| 3-paths | Counts the number of directories in the `PATH` |
+| 4-global_variables | Lists environmental variables |
+| 5-local_variables | Lists all local and environmental variables and functions |
+| 6-create_local_variable | Creates a new local variable |
+| 7-create_global_variable | Creates a new global variable |
+| 8-true_knowledge | Prints the result of the addition of 128 with the value stored in the environment variable `TRUEKNOWLEDGE` |
+| 9-divide_and_rule | Prints the result of `POWER` divided by `DIVIDE` |
+| 10-love_exponent_breath | Displays the result of `BREATH` to the power of `LOVE` |
+| 11-binary_to_decimal | Converts a number from base 2 to base 10 |
+| 12-combinations | Prints all combinations of two letters except `oo` |
+| 13-print_float | Prints a number with two decimal places and stores it in the environment variable `NUM` |
+| 14-decimal_to_hexadecimal | Converts a number from base 10 to base 16 |
 
-4-global_variables - Create a script that lists environment variables.
+## Advanced Tasks :shipit:
 
-5-local_variables - Create a script that lists all local variables and environment variables, and functions.
+| Files | Description |
+| ----- | ----------- |
+| 100-rot13 | Encodes and decodes text using rot13 encryption |
+| 101-odd | Prints every other line from input starting with the first line |
+| 102-water_and_stir | Adds the numbers stored in `WATER` & `STIR` and prints the results |
 
-6-create_local_variable - Create a script that creates a new local variable.
+## Author :octocat:
 
-7-create_global_variable - Create a script that creates a new global variable.
+[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
 
-8-true_knowledge - Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
-
-9-divide_and_rule - Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
-
-10-love_exponent_breath - Write a script that displays the result of BREATH to the power LOVE BREATH and LOVE are environment variables The script should display the result, followed by a new line
-
-11-binary_to_decimal - Write a script that converts a number from base 2 to base 10. The number in base 2 is stored in the environment variable BINARY The script should display the number in base 10, followed by a new line
-
-12-combinations - Create a script that prints all possible combinations of two letters, except oo. Letters are lower cases, from a to z One combination per line The output should be alpha ordered, starting with aa Do not print oo Your script file should contain maximum 64 characters
-
-13-print_float - Write a script that prints a number with two decimal places. The number will be stored in the environment variable NUM.
-
-14-decimal_to_hexadecimal - Write a script that converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL The script should display the number in base 16, followed by a new line
-
-100-rot13 - Write a script that encodes and decodes text using the rot13 encryption.
-
-101-odd - Write a script that prints every other line from the input, starting with the first line.
