@@ -1,6 +1,6 @@
 # System Engineering and DevOps :bullettrain_side:
 
-## Introduction
+## Introduction :notebook:
 
 This repository contains all the work done for the Sysadmin/SRE track at Holberton School. It is written in Bash, Puppet, and other tools/languages.
 
@@ -17,7 +17,7 @@ This repository contains all the work done for the Sysadmin/SRE track at Holbert
 
 This repository contains projects on:
 
-1. **Linux/Command Line and cover:**
+1. **Linux/Command Line and cover:** :black_nib:
 
 * How the shell works
 * Navigating the file system
@@ -27,7 +27,7 @@ This repository contains projects on:
 * Job control
 * Shell scripts
 
-2. **Infrastructure design & management**
+2. **Infrastructure design & management** :black_nib:
 * Parsing
 * Advanced Log parsing
 * Advanced SSH
@@ -42,7 +42,7 @@ This repository contains projects on:
 * Monitor a web infrastructure
 * Web stack debugging
 
-## Requirements
+## Requirements :books:
 
 * Ubuntu 14.04 LTS
 * python3 3.4.3
@@ -52,7 +52,7 @@ This repository contains projects on:
 * Shellcheck styling
 * All programs were run on a Vagrant(ubuntu/trusty64) (Virtualbox) environment
 
-## Installation
+## Installation :bookmark:
 
 In your terminal, git clone the directory with the following command:
 
