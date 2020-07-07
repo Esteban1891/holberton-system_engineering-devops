@@ -1,6 +1,6 @@
-# 0x06-regular_expressions
+# 0x06-regular_expressions :video_game:
 
-## Description
+## Description :dog:
 
 This projects deals with regular expressions.
 
