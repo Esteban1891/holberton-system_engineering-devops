@@ -78,6 +78,7 @@ git clone https://github.com/Esteban1891/[Github project directory]
 1. [0x06-regular_expressions](./0x06-regular_expressions)
 1. [0x07-networking_basics](./0x07-networking_basics)
 1. [0x08-networking_basics_2](./0x08-networking_basics_2)
+1. [Command line for the win](./command_line_for_the_win)
 1. [0x08-web_stack_debugging_0](./0x08-web_stack_debugging_0)
 1. [0x09-web_infrastructure_design](./0x09-web_infrastructure_design)
 1. [0x0A-ssh](./0x0A-ssh)
