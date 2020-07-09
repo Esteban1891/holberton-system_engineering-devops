@@ -6,6 +6,10 @@
 
 * The CMD CHALLENGE Directed Project is a cool game that challenges you in Bash skills. Everything is done through the command line and the questions are getting more complicated. It's a good workout to improve skills on the command line!
 
+- As you can see, it starts from the simplest and then the most difficult. Here I will leave the complete write up in case they are difficult for some:
+[click here](https://medium.com/@estebandelahoz/commandile-challenge-bash-c06f777fbc78)
+
+
 ## Advanced Tasks :light_rail:
 
 | Files | Description |
@@ -18,3 +22,4 @@
 ## Author :octocat:
 
 [Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
+ 
