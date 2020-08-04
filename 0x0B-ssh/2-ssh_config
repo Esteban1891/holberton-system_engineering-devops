@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Updating our SSH configuration file
+Hosts ubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/holberton
