@@ -1,6 +1,5 @@
 # Calling pkill
-exec {
-  path => ['/usr/bin', '/usr/sbin', '/bin', '/sbin']
+exec { 'killmenow':
+  path => ['/usr/bin']
   command => 'pkill -f killmenow'
 }
-
