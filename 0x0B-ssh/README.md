@@ -12,7 +12,9 @@ Automating configuration of multiple servers using Puppet.
 | 1-install_a_package.pp | Installs `puppet-lint` |
 | 2-execute_a_command.pp | Manifest that kills a process called `killmenow` |
 
-
+```sh
+1544-web-01	     ubuntu	     35.243.226.232	    running	     Soft reboot	    Hard reboot	     Ask a new server
+```
 
 ## Authors :black_nib:
 
