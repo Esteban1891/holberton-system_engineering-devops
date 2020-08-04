@@ -86,6 +86,7 @@ git clone https://github.com/Esteban1891/[Github project directory]
 1. [0x0E-web_stack_debugging_1](./0x0E-web_stack_debugging_1)
 1. [0x0F-load_balancer](./0x0F-load_balancer)
 1. [0x10-https_ssl](./0x10-https_ssl)
+1. [0x0A-configuration_management](./0x0A-configuration_management)
 1. [0x11-what_happens_when_your_type_holbertonschool_com_in_your_browser_and_press_enter](./0x11-what_happens_when_your_type_holbertonschool_com_in_your_browser_and_press_enter)
 1. [0x12-web_stack_debugging_2](./0x12-web_stack_debugging_2)
 1. [0x13-firewall](./0x13-firewall)
