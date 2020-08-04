@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Updating our SSH configuration file
-Hosts ubuntu
-	PasswordAuthentication no
-	IdentityFile ~/.ssh/holberton
+# update ssh config
+Host holberton
+    HostName 34.73.222.49
+    User ubuntu
+    Port 22
+    IdentityFile ~/.ssh/holberton
