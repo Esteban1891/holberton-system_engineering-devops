@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Transferring a file from client to a server
-if [ "$4" -eq '' ]
+if [ $# -eq 4 ]
 then
 	scp -o StrictHostKeyChecking=no -i "$4" "$1" "$3"@"$2":~/
 else
