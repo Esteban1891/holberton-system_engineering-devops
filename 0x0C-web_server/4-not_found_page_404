@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Setting up redirect
+apt-get -y update
+apt-get -y install nginx
+sed -i "30i \\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/404.html
+error_replace="#error_page"
+error_string="error_page"
+sed -i "s/$error_replace/$error_string/\n" /etc/nginx/sites-available/default
+service nginx restart
+
