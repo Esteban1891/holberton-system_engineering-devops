@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# Fix server with servername pointing to localhost
-apt-get install apache2 -y
-echo "ServerName localhost" >> /etc/apache2/apache2.conf
+# Getting Apache to run on a container
 service apache2 restart
