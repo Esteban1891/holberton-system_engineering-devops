@@ -4,26 +4,21 @@
 #should also include resources in your manifest to perform a 301
 #redirect when querying /redirect_me.
 
-class nginx {
-  package { 'nginx':
-    ensure => absent,
-  }
+
+# Install Nginx with puppet
 package { 'nginx':
-  ensure  => installed,
-  require => Package['ngingx'],
+  ensure => installed,
+}
+
+file_line { 'install':
+  ensure => 'present',
+  path   => '/etc/nginx/sites-available/default',
+  after  => 'listen 80 default_server;',
+  line   => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
 }
 
 file { '/var/www/html/index.html':
   content => 'Holberton School',
-  path    => '/var/www/html/index.html'
-}
-
-file_line { 'title':
-  ensure   => present,
-  path     => '/etc/nginx/sites-enabled/default',
-  after    => 'server_name _;',
-  line     => 'rewrite ^/redirect_me https://twitter.com/Esteban18911/ permanent;',
-  multiple => true
 }
 
 service { 'nginx':
