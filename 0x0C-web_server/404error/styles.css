@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.menu {
+    background-color: white;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+p {
+    font-color: white;
+    font-style: none;
+}
+
+.menu a {
+    background-color: white;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+.main {
+    background-color: white;
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.right {
+    background-color: white;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
