@@ -16,7 +16,7 @@ First web stack debugging project. The task deals with debugging an empty reply 
 ##### `Name Username IP State`
 
 ```sh
-1544-web-01	     ubuntu	     35.243.226.232	    running	     Soft reboot	    Hard reboot	     Ask a new server
+1542-web-01	     ubuntu	   34.73.222.49		running	     Soft reboot	    Hard reboot	     Ask a new server
 ```
 
 ## Authors :black_nib:
