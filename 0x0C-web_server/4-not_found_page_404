@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Install NGINX server, set mensaje and redirection the server
 apt-get -y update
-apt-get -y install nginx
+apt-get -y install nginx start
 echo "Holberton School" > /var/www/html/index.nginx-debian.html
 sudo mkdir /var/www/error
 echo "Ceci n'est pas une page" > /var/www/error/404.html
