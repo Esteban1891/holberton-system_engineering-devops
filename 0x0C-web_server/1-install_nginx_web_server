@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Installing nginx on our webserver
 sudo apt-get -y update
-sudon apt-get -y install nginx
+sudo apt-get -y install nginx
 sudo chown  $USER:$USER /var/www/html/index.html
 echo "Holberton School makes learning fun." > /var/www/html/index.html
 service nginx restart
