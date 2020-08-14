@@ -18,7 +18,7 @@ This project deals with setting up a load balancer for a web server.
 ##### `Name Username IP State`
 
 ```sh
-1542-web-01	     ubuntu	     34.73.222.49     running	     Soft  reboot	    Hard    reboot	   Ask a new server
+1542-web-01	     ubuntu	     34.73.222.49     running	     Soft  reboot	    Hard    reboot	  Ask a new server
 ```
 
 
