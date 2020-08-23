@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
-# Use ufw to block or allow connections to ports
-sudo ufw disable
+sudo ufw status verbose
 sudo ufw default deny incoming
-sudo ufw allow 22
-sudo ufw allow 443
-sudo ufw allow 80
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw allow http
+sudo ufw allow https
 sudo ufw enable
+sudo ufw status verbose
