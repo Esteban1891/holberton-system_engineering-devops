@@ -1,26 +1,47 @@
 #!/usr/bin/python3
-"""
-Requests an API with a given employee ID
-Returns information about the employee's TODO list in CSV format
-"""
-if __name__ == "__main__":
-    import csv
-    import requests
-    import sys
+"""Python script to export data in the CSV format"""
 
-    url = 'https://jsonplaceholder.typicode.com/'
-    employee_id = sys.argv[1]
-    employee_url = url + 'users/{}'.format(employee_id)
-    todo_url = url + 'todos?userId={}'.format(employee_id)
-    employee = requests.get(employee_url).json()
-    todo = requests.get(todo_url).json()
-    employee_name = employee.get('name')
-    csv_file = '{}.csv'.format(employee_id)
-    with open(csv_file, 'w') as f:
-        for task in todo:
-            csv_to_write = csv.writer(f, quoting=csv.QUOTE_ALL)
-            employee_id_str = str(employee_id)
-            task_finished_str = str(task.get('completed'))
-            task_name = task.get('title')
-            csv_to_write.writerow([employee_id_str, employee_name,
-                                  task_finished_str, task_name])
+import csv
+import requests
+import sys
+
+base_url = 'https://jsonplaceholder.typicode.com/'
+
+
+def do_request():
+    '''Performs request'''
+
+    if not len(sys.argv):
+        return print('USAGE:', __file__, '<employee id>')
+    eid = sys.argv[1]
+    try:
+        _eid = int(sys.argv[1])
+    except ValueError:
+        return print('Employee id must be an integer')
+
+    response = requests.get(base_url + 'users/' + eid)
+    if response.status_code == 404:
+        return print('User id not found')
+    elif response.status_code != 200:
+        return print('Error: status_code:', response.status_code)
+    user = response.json()
+
+    response = requests.get(base_url + 'todos/')
+    if response.status_code != 200:
+        return print('Error: status_code:', response.status_code)
+    todos = response.json()
+    user_todos = [todo for todo in todos
+                  if todo.get('userId') == user.get('id')]
+    completed = [todo for todo in user_todos if todo.get('completed')]
+
+    with open(eid + '.csv', 'w') as csvfile:
+        writer = csv.writer(csvfile, lineterminator='\n',
+                            quoting=csv.QUOTE_ALL)
+        [writer.writerow(['{}'.format(field) for field in
+                          (todo.get('userId'), user.get('username'),
+                           todo.get('completed'), todo.get('title'))])
+         for todo in user_todos]
+
+
+if __name__ == '__main__':
+    do_request()
