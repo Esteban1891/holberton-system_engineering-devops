@@ -11,9 +11,12 @@ web stack.
 * **0. Sky is the limit, let's bring that limit higher**
   * [0-the_sky_is_the_limit_not.pp](./0-the_sky_is_the_limit_not.pp): Puppet manifest
   that increases the amount of traffic an Apache web server can effectively handle.
-
+ 
+ ### example of all failed 
+![](https://github.com/Esteban1891/holberton-system_engineering-devops/blob/master/0x1B-web_stack_debugging_4/error%20task0.png?raw=true)
 	
-
+ ### solution failed change
+ ![](https://github.com/Esteban1891/holberton-system_engineering-devops/blob/master/0x1B-web_stack_debugging_4/solution%20task0.png?raw=true)
 * **1. User limit**
   * [1-user_limit.pp](./1-user_limit.pp): Puppet manifest that changes the operating system
   configuration so that it is possible to login with the user `holberton` and open a file
