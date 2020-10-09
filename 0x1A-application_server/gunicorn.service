@@ -1,5 +1,6 @@
-[Unit]
-Description = AirBnB_clone-v4
+
+[unit]
+Description = HBNB
 After = network.target
 
 [Service]
@@ -10,7 +11,7 @@ Group = ubuntu
 WorkingDirectory = /home/ubuntu/AirBnB_clone_v4/
 ExecStartPre = /bin/mkdir /run/hbnb
 ExecStartPre = /bin/chown -R ubuntu:ubuntu /run/hbnb
-ExecStart = /usr/bin/env HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db gunicorn3 web_dynamic.2-hbnb:app -b 0.0.0.0:5003 --pid /run/hbnb/hbnb.pid -w 3 --error-logfile /tmp/airbnb-error.log --access-logfile /tmp/airbnb-access.log
+ExecStart = /usr/bin/env HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db  gunicorn web_dynamic.2-hbnb:app -b 0.0.0.0:5003 --pid /run/hbnb/hbnb.pid -w 3 --error-logfile /tmp/airbnb-error.log --access-logfile /tmp/airbnb-access.log
 ExecReload = /bin/kill -s HUP $MAINPID
 ExecStop = /bin/kill -s TERM $MAINPID
 ExecStopPost = /bin/rm -rf /run/hbnb
