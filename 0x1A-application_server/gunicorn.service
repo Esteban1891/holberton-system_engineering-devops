@@ -1,6 +1,7 @@
 [Unit]
 Description=gunicorn daemon for hbnb
 After=network.target
+Requires=gunicorn.socket
 
 [Service]
 User=ubuntu
