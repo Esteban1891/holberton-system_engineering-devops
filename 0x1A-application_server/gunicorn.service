@@ -11,7 +11,7 @@ WorkingDirectory=/home/ubuntu/AirBnB_clone_v4
 ExecStart=/usr/bin/gunicorn \
           --error-logfile /tmp/airbnb-error.log \
           --access-logfile /tmp/airbnb-access.log \
-          --bind 0.0.0.0:5003 \
+          --bind unix:/0.0.0.0:5003 \
           --workers 3 \
           web_dynamic.2-hbnb:app
 
