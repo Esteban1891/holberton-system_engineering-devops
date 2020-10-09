@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Gracefully updates gunicorn workers
+pkill -HUP gunicorn
